@@ -23,6 +23,17 @@ object ExerciseRDD {
     // Afficher le résultat
     println("La somme des carrés des nombres pairs est : " + sumOfSquares)
 
+    // Afficher les résultats des exercices
+    println("Exercice 1: RDD de tuples (nombre, carré)")
+
+    println("Exercice 2: Nombres dont le carré est supérieur à 20")
+
+    println("Exercice 3: Moyenne des carrés des nombres pairs")
+
+    println("Exercice 4: Nombre maximum dans la RDD originale")
+
+    println("Exercice 5: Nombre minimum dans la RDD originale")
+
     // Arrêter le contexte Spark
     sc.stop()
   }
