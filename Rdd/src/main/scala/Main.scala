@@ -12,16 +12,13 @@ object ExerciseRDD {
     val numbersRDD = sc.parallelize(numbers)
 
     // Filtrer les nombres pairs
-    val evenNumbersRDD = numbersRDD.filter(num => num % 2 == 0)
 
     // Calculer le carré de chaque nombre
-    val squaredNumbersRDD = evenNumbersRDD.map(num => num * num)
 
     // Calculer la somme des carrés
-    val sumOfSquares = squaredNumbersRDD.reduce((x, y) => x + y)
 
     // Afficher le résultat
-    println("La somme des carrés des nombres pairs est : " + sumOfSquares)
+    println("La somme des carrés des nombres pairs est : " )
 
     // Afficher les résultats des exercices
     println("Exercice 1: RDD de tuples (nombre, carré)")
